@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df033fec-341e-47a2-ae31-eafd3a8b267d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._gameover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._health.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._healthbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/._youwin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/badguy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/badguy2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/badguy3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/badguy4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/castle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dude.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dude2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gameover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/health.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/healthbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/youwin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +16,11 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,13 +160,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 import pygame
-
+import math
 
 pygame.init()
 
@@ -7,12 +7,15 @@ width, height = 640, 480
 
 screen = pygame.display.set_mode((width, height))
 keys = [False, False, False, False]
-playerpos=[100,100]
+playerpos = [100, 100]
+acc = [0, 0]
+arrows = []
 
 
 player = pygame.image.load("resources/images/dude.png")
 grass = pygame.image.load("resources/images/grass.png")
 castle = pygame.image.load("resources/images/castle.png")
+arrow = pygame.image.load("resources/images/bullet.png")
 
 
 
@@ -25,7 +28,11 @@ while 1:
     screen.blit(castle, (0, 135))
     screen.blit(castle, (0, 240))
     screen.blit(castle, (0, 345))
-    screen.blit(player, playerpos)
+    position = pygame.mouse.get_pos()
+    angle = math.atan2(position[1] - (playerpos[1] + 32), position[0] - (playerpos[0] + 26))
+    playerrot = pygame.transform.rotate(player, 360 - angle * 57.29)
+    playerpos1 = (playerpos[0] - playerrot.get_rect().width / 2, playerpos[1] - playerrot.get_rect().height / 2)
+    screen.blit(playerrot, playerpos1)
 
     pygame.display.flip()
 
