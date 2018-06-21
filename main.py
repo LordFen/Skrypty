@@ -11,14 +11,18 @@ playerpos = [100, 100]
 acc = [0, 0]
 arrows = []
 
-
+badtimer=100
+badtimer1=0
+badguys=[[640,100]]
+healthvalue=194
 
 
 player = pygame.image.load("resources/images/dude.png")
 grass = pygame.image.load("resources/images/grass.png")
 castle = pygame.image.load("resources/images/castle.png")
 arrow = pygame.image.load("resources/images/bullet.png")
-
+badguyimg1 = pygame.image.load("resources/images/badguy.png")
+badguyimg=badguyimg1
 
 
 while 1:
